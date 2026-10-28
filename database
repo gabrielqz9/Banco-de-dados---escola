@@ -66,4 +66,4 @@ group by a.rgm;
 select d.nome from disciplina d
 left join matricula m
 ON id.disciplina = m.id_disciplina
-where m.id_disciplina is n
+where m.id_disciplina is null;
